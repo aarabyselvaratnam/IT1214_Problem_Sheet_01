@@ -92,8 +92,8 @@ public class MainApp3 {
         bank.addAccount(new BankAccount(1001, "Alice", 5000.0));
         bank.addAccount(new BankAccount(1002, "Bob", 3000.0));
 
-        bank.withdrawFromAccount(1001, 6000.0);  // Insufficient balance
-        bank.withdrawFromAccount(1002, 1000.0);  // Successful withdrawal
+        bank.withdrawFromAccount(1001, 6000.0);  
+        bank.withdrawFromAccount(1002, 1000.0);  
 
         bank.displayAllAccounts();
     }
