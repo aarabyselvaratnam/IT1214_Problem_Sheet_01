@@ -40,7 +40,7 @@ class Student{
 	}
 	
 	double calculateAverage(){
-		double average=exam1+exam2+exam3/3;
+		double average=exam1+exam2+exam3/3.0;
 		return average;
 	}
 }
